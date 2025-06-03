@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTMM - Make You Monster</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            color: gold;
+            letter-spacing: 5px;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #ccc;
+            margin: 5px 0 0 0;
+        }
+        .hero {
+            background: url('YOUR_MAIN_IMAGE_HERE.jpg') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            color: gold;
+        }
+        .btn {
+            background-color: gold;
+            color: black;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        .products {
+            padding: 50px 20px;
+            background-color: #111;
+            text-align: center;
+        }
+        .products h3 {
+            font-size: 2em;
+            color: gold;
+            margin-bottom: 20px;
+        }
+        .product-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .product-gallery img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .product-gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SYSTMM</h1>
+        <p>MAKE YOU MONSTER</p>
+    </header>
+    
+    <section class="hero">
+        <div>
+            <h2>UNLEASH THE POWER. RULE THE SUMER.</h2>
+            <a class="btn" href="https://wa.me/918877790429?text=Hi%20Team%20SYSTMM%2C%20I%20want%20to%20order%20the%20energy%20drink!">Order Now</a>
+        </div>
+    </section>
+    
+    <section class="products">
+        <h3>Our Products</h3>
+        <div class="product-gallery">
+            <img src="can1.jpg" alt="SYSTMM Can">
+            <img src="can2.jpg" alt="SYSTMM Can">
+            <img src="bottle1.jpg" alt="SYSTMM Bottle">
+            <img src="bottle2.jpg" alt="SYSTMM Bottle">
+        </div>
+    </section>
+    
+    <footer>
+        &copy; 2025 SYSTMM Energy Drink. All rights reserved.
+    </footer>
+</body>
+</html>
